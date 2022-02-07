@@ -5,55 +5,171 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
     <!--Favicon-->
-    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAJA1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAABAAAAAAEQEQEAAAAAAAEREBAAAAAAAAAAEAAAAAEREREQAAAAEREREREAAAAQAAAAAQAAABAAAAABAAAAEAAAAAEAAAEQAAAAARAAAQAAAAAAEAABEREREREQAAAAAAAAABAAAAAAAAAAERAAAAAAAAABH73wAA8Y8AAPAPAADwDwAA/+8AAPAPAADgBwAA7/cAAO/3AADv9wAAz/MAAN/7AADAAwAA//sAAP/4AAD//AAA" rel="icon" type="image/x-icon">
+    <link
+        href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAJA1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAABAAAAAAEQEQEAAAAAAAEREBAAAAAAAAAAEAAAAAEREREQAAAAEREREREAAAAQAAAAAQAAABAAAAABAAAAEAAAAAEAAAEQAAAAARAAAQAAAAAAEAABEREREREQAAAAAAAAABAAAAAAAAAAERAAAAAAAAABH73wAA8Y8AAPAPAADwDwAA/+8AAPAPAADgBwAA7/cAAO/3AADv9wAAz/MAAN/7AADAAwAA//sAAP/4AAD//AAA"
+        rel="icon" type="image/x-icon">
     <!--Enlace de Fontawesone para los iconos del Nav y Footer-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
 
     <title>My Ecommerce</title>
 
 </head>
 
 <body>
-    <header>
-        <h1>HOME</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html"><img src="img/logo.png" alt="logo"></a></li>
-                <li><a href="html/mujer.html">MUJER</a></li>
-                <li><a href="html/hombre.html">HOMBRE</a></li>
-                <li><a href="html/accesorios.html">ACCESORIOS</a></li>
-                <li><a href="html/ofertas.html">OFERTAS</a></li>
-                <li><a href="html/contacto.html">CONTACTO</a></li>
-            </ul>
 
-            <i class="fas fa-user"></i>
-            <i class="fas fa-sign-in-alt"></i>
-            <i class="fas fa-shopping-cart"></i>
-        </nav>
-        <!--Imagen de ejemplo para Banner-->
-        <img src="img/bannerHome.webp" alt="banner">
+    <header class="">
+
+        <div class="header__topHeader ">
+            <ul>
+                <li>
+                    <i class="fa fa-phone header__contacto"> +541122334455</i>
+                    <i class="fas fa-envelope header__contacto"> email@email.com</i>
+                </li>
+            </ul>
+            <i class="fas fa-sign-in-alt header__user"></i>
+            <i class="fas fa-user header__user"> Mi Cuenta</i>
+        </div>
+        <div class="paddingViewport header">
+            <div class="header__Logocirculo"><a href="index.html">Desarrollo Web</a>
+        
+            </div>
+            <!--<h1 class="header__logo">HOME</h1>
+            TODO Titulo y/o Logo-->
+
+            <!--El DIV de Abajo lo agregue para acomodar la barra busqueda y sector compras-->
+            <div class="Header__RePosicionarBuscarCompras">
+
+                <div class="header__buscar">
+                    <input class="header__buscarInput" type="text" placeholder="Buscar Producto">
+                    <i class="fas fa-search header__buscarLogo"></i>
+                </div>
+                <div class="header__user">
+
+                </div>
+                <div class="header__deseosCarrito">
+                    <i class="fas fa-heart header__deseos">2</i>
+                    <i class="fas fa-shopping-cart headr__carrito">5</i>
+                </div>
+
+            </div>
+
+        </div>
     </header>
 
-    <main>
-        <section>
+    <nav class="header__nav">
+        <ul class="footer__ul">
 
-            <h2>Productos Nuevos
-            </h2>
-            <img src="img/remeraMujer2.jpg" alt="Remera Mujer" />
-            <img src="img/shortMujer1.jpg" alt="short mMujer" />
-            <img src="img/pantalonHombre1.jpg" alt="Pantalon Jean" />
-            <img src="img/remeraHombre1.jpg" alt="Remera Hombre" />
+            <!--<li><a href="index.html"><img src="img/logo.mp4" alt="logo"></a></li>-->
+            <li class="footer_li"><a href="index.html">HOME</a></li>
+            <li class="footer_li"><a href="html/ofertas.html">OFERTAS</a></li>
+            <li class="footer_li"><a href="html/tecnologias.html">TECNOLOGIA</a></li>
+            <li class="footer_li"><a href="html/electrodomesticos.html">ELECTRODOMESTICOS</a></li>
+            <li class="footer_li"><a href="html/accesorios.html">ACCESORIOS</a></li>
+            <li class="footer_li"><a href="html/contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    
+    <div class="banner"></div>
 
+    <main class="paddingViewport">
+        <section class="main__banner">
         </section>
-        <section>
 
+        <section class="Productos">
+            <h2>Productos Nuevos</h2>
+            <div class="Productos__SubMenu">
+                <ul class="productos__ul">
+                    <li><a href="html/ofertas.html">OFERTAS</a></li>
+                    <li><a href="html/tecnologias.html">TECNOLOGIA</a></li>
+                    <li><a href="html/electrodomesticos.html">ELECTRODOMESTICOS</a></li>
+                    <li><a href="html/accesorios.html">ACCESORIOS</a></li>
+                </ul>
+            </div>
+
+            <div class="Productos__Nuevo">
+                <img src="img/remeraMujer2.jpg" alt="Remera Mujer" />
+                <div class="Productos__Detalle">
+                    <p>Marca</p>
+                    <p>Modelo</p>
+                    <p>Detalle</p>
+                </div>
+            </div>
+            <div class="Productos__Nuevo">
+                <img src="img/shortMujer1.jpg" alt="short Mujer" />
+                <div class="Productos__Detalle">
+                    <p>Marca</p>
+                    <p>Modelo</p>
+                    <p>Detalle</p>
+                </div>
+            </div>
+            <div class="Productos__Nuevo">
+                <img src="img/pantalonHombre1.jpg" alt="Pantalon Jean" />
+                <div class="Productos__Detalle">
+                    <p>Marca</p>
+                    <p>Modelo</p>
+                    <p>Detalle</p>
+                </div>
+            </div>
+            <div class="Productos__Nuevo">
+                <img src="img/remeraHombre1.jpg" alt="Remera Hombre" />
+                <div class="Productos__Detalle">
+                    <p>Marca</p>
+                    <p>Modelo</p>
+                    <p>Detalle</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="Productos">
             <h2>Productos Destacados</h2>
-            <img src="img/accesorioCorbata.jpg" alt="Corbata" />
-            <img src="img/accesorioMonio.jpg" alt="Monio" />
-            <img src="img/ofertaPantalon.jpg" alt="Pantalon vestir" />
-            <img src="img/ofertaPantalon2.jpg" alt="pantalon" />
+            <div class="Productos__SubMenu">
+                <ul class="productos__ul">
+                    <li><a href="html/ofertas.html">OFERTAS</a></li>
+                    <li><a href="html/tecnologias.html">TECNOLOGIA</a></li>
+                    <li><a href="html/electrodomesticos.html">ELECTRODOMESTICOS</a></li>
+                    <li><a href="html/accesorios.html">ACCESORIOS</a></li>
+                </ul>
+            </div>
+            <div class="Productos__Nuevo">
+                <img src="img/accesorioCorbata.jpg" alt="Corbata" class="captura" />
+                <div class="Productos__Detalle">
+                    <p>Marca</p>
+                    <p>Modelo</p>
+                    <p>Detalle</p>
+                </div>
+            </div>
+            <div class="Productos__Nuevo">
+                <img src="img/accesorioMonio.jpg" alt="Monio" class="captura" />
+                <div class="Productos__Detalle">
+                    <p>Marca</p>
+                    <p>Modelo</p>
+                    <p>Detalle</p>
+                </div>
+            </div>
+            <div class="Productos__Nuevo">
+                <img src="img/ofertaPantalon.jpg" alt="Pantalon vestir" class="captura" />
+                <div class="Productos__Detalle">
+                    <p>Marca</p>
+                    <p>Modelo</p>
+                    <p>Detalle</p>
+                </div>
+            </div>
+            <div class="Productos__Nuevo">
+                <img src="img/ofertaPantalon2.jpg" alt="pantalon" class="captura" />
+                <div class="Productos__Detalle">
+                    <p>Marca</p>
+                    <p>Modelo</p>
+                    <p>Detalle</p>
+                </div>
+            </div>
+
+            <!--TODO Insertar un mapa de google para la web, en el footer
 
             <p>Tipos de webs para Ecommerce</p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/g1UacyZF8L4"
@@ -61,27 +177,62 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
             </iframe>
+            -->
 
         </section>
 
+
     </main>
-    <footer>
-        <p>Metodos de pago</p>
-        <i class="fab fa-bitcoin"></i>
-        <i class="fab fa-cc-visa"></i>
-        <i class="fab fa-cc-mastercard"></i>
+    <section class="Suscribirse">
+        <div class="Suscribirse__Div">
+            <p class="Suscribirse__parrafo">Suscríbete para recibir los mejores precios</p>
+            <div class="Suscribirse__DivCorreo">
+                <img class="Suscribirse__img-correo" src="/img/img-correo.png" alt="">
+            </div>
+            <form action="#" class="Suscribirse__DivPadre">
+                <input type="text" placeholder="Ingresa Tu Correo" class="Suscribirse__Input">
+                <button><i class="fas fa-envelope Suscribirse__boton">Suscribirse</i></button>
+            </form>
+        </div>
+    </section>
+    
+        <div class="Btn__Flotante">
+            <a class="Btn__FlotanteAnchor btn__FlotanteV2" href="#top">subir</a>
+        </div>
 
-        <p>Quick Link</p>
-        <a href="https://www.coderhouse.com"><i class="fas fa-link"></i></a>
+        <footer class="">
+        <div class="footer__SobreNosotros">
+            <div>
+                <h2>Sobre Nosotros</h2>
+                <p>Lorem ipsum dolor sit</p>
 
-        <p>Siguenos en las redes sociales</p>
-        <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                <!--TODO esto podría ser un ul+li-->
+                <p>localidad</p>
+                <p>telefono</p>
+                <p>email</p>
+            </div>
+        </div>
+        <div class="footer__Informacion">
+            <h2>INFORMACION</h2>
+            <p>Contactanos</p>
+            <p>Politica Privacidad</p>
+            <p>Ordenes y Reenvolsos</p>
+            <p>Terminos de Condiciones</p>
+        </div>
 
-        <p>Contactanos</p>
-        <i class="fas fa-envelope"></i>
+        <div class="footer__Servicio">
+            <h2>Mi Cuenta</h2>
+            <p>Carrito de Compras</p>
+            <p>Lista de deseos</p>
+            <p>Seguir Mi Orden</p>
+            <p>Ayuda</p>
+        </div>
 
+        <div class="footer__DerechosResevados">
+            <p>Copyright ©2022 All rights reserved | This template is made with <i
+                    class="fas fa-heart header__deseos"></i> RafaMiranda</p>
+        </div>
+        
     </footer>
 </body>
 

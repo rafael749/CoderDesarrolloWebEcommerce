@@ -5,74 +5,188 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style2.css">
     <!--Favicon-->
-    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAJA1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAABAAAAAAEQEQEAAAAAAAEREBAAAAAAAAAAEAAAAAEREREQAAAAEREREREAAAAQAAAAAQAAABAAAAABAAAAEAAAAAEAAAEQAAAAARAAAQAAAAAAEAABEREREREQAAAAAAAAABAAAAAAAAAAERAAAAAAAAABH73wAA8Y8AAPAPAADwDwAA/+8AAPAPAADgBwAA7/cAAO/3AADv9wAAz/MAAN/7AADAAwAA//sAAP/4AAD//AAA" rel="icon" type="image/x-icon">
+    <link
+        href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAJA1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAABAAAAAAEQEQEAAAAAAAEREBAAAAAAAAAAEAAAAAEREREQAAAAEREREREAAAAQAAAAAQAAABAAAAABAAAAEAAAAAEAAAEQAAAAARAAAQAAAAAAEAABEREREREQAAAAAAAAABAAAAAAAAAAERAAAAAAAAABH73wAA8Y8AAPAPAADwDwAA/+8AAPAPAADgBwAA7/cAAO/3AADv9wAAz/MAAN/7AADAAwAA//sAAP/4AAD//AAA"
+        rel="icon" type="image/x-icon">
     <!--Enlace de Fontawesone para los iconos del Nav y Footer-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
 
     <title>My Ecommerce</title>
 
 </head>
 
 <body>
-    <header>
-        <h1>Contacto</h1>
-        <nav>
+
+    <header class="">
+
+        <div class="header__topHeader ">
             <ul>
-                <li><a href="../index.html"><img src="../img/logo.png" alt="logo"></a></li>
-                <li><a href="mujer.html">MUJER</a></li>
-                <li><a href="hombre.html">HOMBRE</a></li>
-                <li><a href="accesorios.html">ACCESORIOS</a></li>
-                <li><a href="ofertas.html">OFERTAS</a></li>
-                <li><a href="contacto.html">CONTACTO</a></li>
+                <li>
+                    <i class="fa fa-phone header__contacto"> +541122334455</i>
+                    <i class="fas fa-envelope header__contacto"> email@email.com</i>
+                </li>
             </ul>
-            <i class="fas fa-user"></i>
-            <i class="fas fa-sign-in-alt"></i>
-            <i class="fas fa-shopping-cart"></i>
-        </nav>
+            <i class="fas fa-sign-in-alt header__user"></i>
+            <i class="fas fa-user header__user"> Mi Cuenta</i>
+        </div>
+        <div class="paddingViewport header">
+            <div class="header__Logocirculo"><a href="../index.html">Desarrollo Web</a>
 
+            </div>
+            <!--<h1 class="header__logo">HOME</h1>
+            TODO Titulo y/o Logo-->
+
+            <!--El DIV de Abajo lo agregue para acomodar la barra busqueda y sector compras-->
+            <div class="Header__RePosicionarBuscarCompras">
+
+                <div class="header__buscar">
+                    <input class="header__buscarInput" type="text" placeholder="Buscar Producto">
+                    <i class="fas fa-search header__buscarLogo"></i>
+                </div>
+                <div class="header__user">
+
+                </div>
+                <div class="header__deseosCarrito">
+                    <i class="fas fa-heart header__deseos">2</i>
+                    <i class="fas fa-shopping-cart headr__carrito">5</i>
+                </div>
+
+            </div>
+
+        </div>
     </header>
-    <main>
-        <section>
-            <h2>Contactanos</h2>
-            <form id="contact_form" action="#" method="POST">
 
-                <fieldset>
-                    <legend>Formulario Contacto</legend>
-                    <label class="" for="nombre">Nombre :</label>
-                    <input id="nombre" class="" name="nombre" type="text" placeholder="Ingresa tu Nombre" size="30">
+    <nav class="header__nav">
+        <ul class="footer__ul">
 
-                    <label class="" for="email">email :</label>
-                    <input id="email" class="" name="email" type="email" placeholder="Ingresa tu Email">
+            <!--<li><a href="index.html"><img src="img/logo.mp4" alt="logo"></a></li>-->
+            <li class="footer_li"><a href="../index.html">HOME</a></li>
+            <li class="footer_li"><a href="ofertas.html">OFERTAS</a></li>
+            <li class="footer_li"><a href="tecnologias.html">TECNOLOGIA</a></li>
+            <li class="footer_li"><a href="electrodomesticos.html">ELECTRODOMESTICOS</a></li>
+            <li class="footer_li"><a href="accesorios.html">ACCESORIOS</a></li>
+            <li class="footer_li"><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <main class="Contacto__Fondo">
 
-                    <label class="" for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" class="" name="mensaje" rows="7" cols="30"></textarea>
+        <div class="contact_form">
 
-                    <input id="submit_button" type="submit" value="Enviar Email" />
-                </fieldset>
+            <div class="formulario">
+                <h1 class="formulario__h1">Formulario de contacto</h1>
+                <h3 class="formulario__h3">Escríbenos y en breve los pondremos en contacto contigo</h3>
 
-            </form>
 
-        </section>
+                <form action="#" method="post">
+
+                    <p class="formulario__p">
+                        <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" class="formulario__input"
+                            placeholder="Escribe tu nombre">
+                    </p>
+
+                    <p>
+                        <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" class="formulario__input"
+                            placeholder="Escribe tu Email">
+                    </p>
+
+                    <p>
+                        <label for="telefone" class="colocar_telefono">Teléfono
+                        </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono" class="formulario__input">
+                    </p>                  
+
+                    <p>
+                        <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" class="formulario__input"
+                            placeholder="Escribe un asunto">
+                    </p>
+
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <textarea name="introducir_mensaje" class=".formulario__textarea" id="mensaje" required="obligatorio"
+                            placeholder="Deja aquí tu comentario..."></textarea>
+                    </p>
+
+                    <button type="submit" name="enviar_formulario" id="enviar" class=".Contacto__button">
+                        <p>Enviar</p>
+                    </button>
+
+                    <p class="aviso">
+                        <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>
+
+                </form>
+            </div>
+        </div>
+
 
     </main>
-    <footer>
-        <p>Metodos de pago</p>
-        <i class="fab fa-bitcoin"></i>
-        <i class="fab fa-cc-visa"></i>
-        <i class="fab fa-cc-mastercard"></i>
 
-        <p>Quick Link</p>        
-        <a href="https://www.coderhouse.com"><i class="fas fa-link"></i></a>
+    <section class="Suscribirse">
+        <div class="Suscribirse__Div">
+            <p class="Suscribirse__parrafo">Suscríbete para recibir los mejores precios</p>
+            <div class="Suscribirse__DivCorreo">
+                <img class="Suscribirse__img-correo" src="/img/img-correo.png" alt="">
+            </div>
+            <form action="#" class="Suscribirse__DivPadre">
+                <input type="text" placeholder="Ingresa Tu Correo" class="Suscribirse__Input">
+                <button><i class="fas fa-envelope Suscribirse__boton">Suscribirse</i></button>
+            </form>
+        </div>
+    </section>
 
-        <p>Siguenos en las redes sociales</p>
-        <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+    <div class="Btn__Flotante">
+        <a class="Btn__FlotanteAnchor btn__FlotanteV2" href="#top">subir</a>
+    </div>
 
-        <p>Contactanos</p>
-        <i class="fas fa-envelope"></i>
+    <footer class="">
+        <div class="footer__SobreNosotros">
+            <div>
+                <h2>Sobre Nosotros</h2>
+                <p>Lorem ipsum dolor sit</p>
+
+                <!--TODO esto podría ser un ul+li-->
+                <p>localidad</p>
+                <p>telefono</p>
+                <p>email</p>
+            </div>
+        </div>
+        <div class="footer__Informacion">
+            <h2>INFORMACION</h2>
+            <p>Contactanos</p>
+            <p>Politica Privacidad</p>
+            <p>Ordenes y Reenvolsos</p>
+            <p>Terminos de Condiciones</p>
+        </div>
+
+        <div class="footer__Servicio">
+            <h2>Mi Cuenta</h2>
+            <p>Carrito de Compras</p>
+            <p>Lista de deseos</p>
+            <p>Seguir Mi Orden</p>
+            <p>Ayuda</p>
+        </div>
+
+        <div class="footer__DerechosResevados">
+            <p>Copyright ©2022 All rights reserved | This template is made with <i
+                    class="fas fa-heart header__deseos"></i> RafaMiranda</p>
+        </div>
 
     </footer>
 </body>
