@@ -38,6 +38,7 @@
 .header__Logocirculo{
     width: 130px;
     height: 130px;
+    top: 20px;
     border-radius: 50%;
     font-size: 20px;
     color: rgb(255, 255, 255);
@@ -148,7 +149,7 @@ body{
 
 .Productos{  
     position: relative;
-    top: 100px;    
+    top: 110px;    
     height: 400px;
 }
 
@@ -177,13 +178,14 @@ body{
     border-bottom: none;    
 }
 .Productos__Detalle:hover {
-        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;        
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;      
+     /*   transform: scale(1.1);*/
       }      
 img {
       width: 100%;
       height: 100%;   
-      object-fit: contain;   
-      
+      object-fit: contain;    
+   /*   transition: transform .2s;*/
 }
 .Productos__Detalle{    
     border: 1px solid rgb(235, 235, 235);
@@ -193,6 +195,13 @@ img {
     position: relative;
     text-align: center;
     margin-left: -6px;
+    
+}
+
+.Productos__Carrito{
+    font-size: 18px;
+    line-height: 20pt;
+    letter-spacing: 5pt;
 }
 
 /*Suscribirse*/
