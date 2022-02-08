@@ -7,7 +7,6 @@
   *, *:before, *:after {box-sizing: inherit;}
 
 .paddingViewport{
-    /*background-color: rgba(202, 221, 197, 0.781);*/
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -31,7 +30,6 @@
 }
 
 .header{
-     /*  background-color: #2b2D42;*/
      background-color: #15161D;
 }
 
@@ -49,8 +47,6 @@
    font-family: fantasy;
     z-index: 1;
 }
-
-
 
 .header__buscar{
 text-align: center;
@@ -97,7 +93,6 @@ bottom: 10px;
 
 .header__nav{   
     text-align: start;      
-   /* border-top: 4px solid rgb(2, 2, 2); */
    border-top: 3px solid #D10024; 
     padding: 15px;
     padding-left: 10%;
@@ -133,8 +128,8 @@ a:hover, a:focus {
 /*Comienzo Main*/
 .main__banner{
     width: 100%;
-    height: 300px;    
-    background-image: url("../img/bannerHome.jpg");
+    height: 450px;    
+    background-image: url("../img/banner.jpg");
     position: relative;
     top:50px;
 }
@@ -160,12 +155,9 @@ body{
     font-weight: 700;
     color: #2B2D42;
 }
-
 .productos__ul{
     height: 0;
 }
-
-
 
 .Productos__Nuevo{    
     top: 10px;
@@ -173,8 +165,8 @@ body{
     border: 1px solid rgb(235, 235, 235);
     float: left;
     padding: 5px;
-    width: 215px;
-    height: 215px;
+    width: 300px;
+    height: 250px;
     border-bottom: none;    
 }
 .Productos__Detalle:hover {
@@ -190,7 +182,7 @@ img {
 .Productos__Detalle{    
     border: 1px solid rgb(235, 235, 235);
     border-top: 0px;
-    width: 225px;
+    width: 310px;
     padding-right: 0px;
     position: relative;
     text-align: center;
@@ -204,11 +196,15 @@ img {
     letter-spacing: 5pt;
 }
 
+.Productos__espacio{
+    height: 80px;
+}
+
 /*Suscribirse*/
 .Suscribirse{
     border-top: 2px solid #dfdfdf;   
     position: relative;
-    top: 100px;
+    top: 250px;
     height: 200px;
     font-size: 20px;
     text-align: center;
@@ -219,18 +215,11 @@ img {
     top: 50px;
 }
 
-.Suscribirse__parrafo{
-
-}
 .Suscribirse__DivCorreo{
     width: 130px;
     height: 130px;
     padding-left: 20%;
 }
-.Suscribirse img .Suscribirse__img-correo{
-
-}
-
 
 .Suscribirse__DivPadre{
     position: relative;    
@@ -285,7 +274,7 @@ footer{
     border-top: 3px solid #D10024; 
     background-color: #15161D;    
     position: relative;
-    top: 120px;    
+    top: 300px;    
     height:160px; 
     color: aliceblue;    
 
@@ -307,7 +296,7 @@ footer{
     width: 300px;
     position: relative;
     bottom: 80px;
-    left: 300px;
+    left: 400px;
     height: 120px;
     padding-left: 10px;
     padding-left: 10%;
@@ -317,7 +306,7 @@ footer{
     width: 300px;
     position: relative;
     bottom: 200px;
-    left: 600px;
+    left: 800px;
     height: 120px;   
     padding-left: 10px;
     padding-left: 10%;
@@ -334,7 +323,6 @@ footer{
     bottom: 200px;
 }
 
-
 /*Accesorio*/
 
 .dividir__Fotos{
@@ -346,18 +334,10 @@ top: 100px;
 border: 1px solid #D10024;
 }
 
-
-
 /*
 INICIO FORMULARIO
 */
-/*
-.Contacto__Fondo{
-  height: 100%; 
-  font-family: 'Noto Sans', sans-serif;
-  background-color: #91243f; 
-}
-*/
+
 
 .contact_form{  
   width: 460px; 
@@ -369,7 +349,6 @@ INICIO FORMULARIO
   background-color: #fbfbfb; 
   padding-left: 30px; 
 }
-
 
 input{
   background-color: #fbfbfb; 
@@ -399,7 +378,6 @@ textarea{
   padding-top: 15px; 
 }
 
-
 label{
   display: block; 
   float: center;  
@@ -408,12 +386,10 @@ span{
   color: #ab4493; 
 }
 
-
 .aviso{
   font-size: 15px;  
   color: #0e0e0e;  
 }
-
 
 .formulario__h1{
   font-size: 39px;  
@@ -428,22 +404,18 @@ span{
   color: #0e0e0e;   
 }
 
-
 .formulario__p{
   font-size: 14px; 
   color: #0e0e0e; 
 }
 
-
 ::-webkit-input-placeholder {
  color: #a8a8a8;
 }
 
-
 ::-webkit-textarea-placeholder {
  color: #a8a8a8;
 }
-
 
 .formulario .formulario__input:focus{
   outline:0;
