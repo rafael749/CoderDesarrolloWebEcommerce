@@ -1,10 +1,8 @@
 
-
-
 * {
     margin:0;padding:0; position: relative;
   }
-  *, *:before, *:after {box-sizing: inherit;}
+  *, *:before, *:after {box-sizing: inherit;} /*Averiguar bien como funciona esta linea*/
 
 .paddingViewport{
     padding-left: 10%;
@@ -18,6 +16,10 @@
     padding-right: 10%;
 }
 
+.header__background{
+    background-color: #15161D;
+}
+
 .header__contacto{
     font-size: 15px;
     color: aliceblue;    
@@ -29,11 +31,7 @@
     text-decoration: none;
 }
 
-.header{
-     background-color: #15161D;
-}
-
-.header__Logocirculo{
+.header__logoCirculo{
     width: 130px;
     height: 130px;
     top: 20px;
@@ -43,8 +41,7 @@
     line-height: 130px;
     text-align: center;
     background: #bd324a;
-   /* font-family: 'Short Stack', cursive;*/
-   font-family: fantasy;
+    font-family: fantasy;
     z-index: 1;
 }
 
@@ -67,14 +64,6 @@ bottom: 10px;
     font-size: 25px;
     color: #D10024;
 }
-.header__user{
-    float: right;
-    bottom: 15px;    
-    position: relative;
-    font-size:15px;
-    color: aliceblue;
-    padding-right: 10px;
-}
 
 .header__deseosCarrito{
     float: right;
@@ -85,13 +74,12 @@ bottom: 10px;
     padding-right: 10px;
 }
 
-
 .Header__RePosicionarBuscarCompras{
     position: relative;
     bottom: 65px;
 }
 
-.header__nav{   
+.nav{   
     text-align: start;      
    border-top: 3px solid #D10024; 
     padding: 15px;
@@ -100,14 +88,14 @@ bottom: 10px;
     border-bottom: 2px solid #dfdfdf;
 }
 
-li {
+.li {
     list-style-type: none;
     display: inline-block;    
     padding: 0 15px 0 0;
     font-weight: 600;
 }
 
-a {
+.a {
     text-decoration: none;
     color:#333;
     background-image: linear-gradient(#D10024, #D10024);
@@ -117,13 +105,13 @@ a {
     transition: background-size .3s;    
 }
 
-a:hover, a:focus {
+.a:hover, .a:focus {
     background-size: 100% 2px;
     color: #D10024; 
 }
-
-/*Fin Header*/
-
+/**************************************************************************************/
+                                    /*Fin Header*/
+/**************************************************************************************/
 
 /*Comienzo Main*/
 .main__banner{
@@ -136,7 +124,7 @@ a:hover, a:focus {
 
 body{    
     font-family: 'Montserrat', sans-serif;
-    color: #2B2D42;
+    color: #292a3b;
 }
 
 /*Productos nuevos*/
@@ -155,7 +143,7 @@ body{
     font-weight: 700;
     color: #2B2D42;
 }
-.productos__ul{
+.productos__SubMenuUl{
     height: 0;
 }
 
@@ -169,6 +157,16 @@ body{
     height: 250px;
     border-bottom: none;    
 }
+
+.Productos__Detalle{    
+    border: 1px solid rgb(235, 235, 235);
+    border-top: 0px;
+    width: 310px;
+    padding-right: 0px;
+    position: relative;
+    text-align: center;
+    margin-left: -6px;    
+}
 .Productos__Detalle:hover {
         box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;      
      /*   transform: scale(1.1);*/
@@ -178,16 +176,6 @@ img {
       height: 100%;   
       object-fit: contain;    
    /*   transition: transform .2s;*/
-}
-.Productos__Detalle{    
-    border: 1px solid rgb(235, 235, 235);
-    border-top: 0px;
-    width: 310px;
-    padding-right: 0px;
-    position: relative;
-    text-align: center;
-    margin-left: -6px;
-    
 }
 
 .Productos__Carrito{
@@ -199,8 +187,9 @@ img {
 .Productos__espacio{
     height: 80px;
 }
-
+/*********************************************************
 /*Suscribirse*/
+/********************************************************/
 .Suscribirse{
     border-top: 2px solid #dfdfdf;   
     position: relative;
@@ -227,7 +216,7 @@ img {
     padding-left: 40px;
 }
 
-button {
+.boton {
     border: none;
     width: 160px;
     height: 54px;
@@ -246,6 +235,12 @@ button {
     border-radius: 40px 0px 0px 40px;
     padding-left: 10px;
     margin-right: -6px;
+}
+
+.iframe{
+    z-index: 1;
+    right: 200px;
+    bottom: 40px;
 }
 
 
@@ -268,9 +263,10 @@ button {
 .Btn__Flotante:hover {
 	cursor: pointer;
 }
-
+/******************************************************************************
 /*Footer*/
-footer{  
+/******************************************************************************/
+.footer{  
     border-top: 3px solid #D10024; 
     background-color: #15161D;    
     position: relative;
