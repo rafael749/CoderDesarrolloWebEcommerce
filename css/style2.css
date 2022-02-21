@@ -205,9 +205,7 @@ img {
 }
 
 .Suscribirse__DivCorreo{
-    width: 130px;
-    height: 130px;
-    padding-left: 20%;
+
 }
 
 .Suscribirse__DivPadre{
@@ -238,9 +236,10 @@ img {
 }
 
 .iframe{
-    z-index: 1;
+    width: 130px;
+    height: 130px;
     right: 200px;
-    bottom: 40px;
+    bottom: 40px;    
 }
 
 
@@ -426,3 +425,9 @@ span{
 /*
 FIN FORMULARIO
 */
+
+html {
+
+    scroll-behavior: smooth;
+
+  }

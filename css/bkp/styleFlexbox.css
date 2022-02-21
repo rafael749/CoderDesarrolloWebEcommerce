@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/**********************************************************/
+                                    /*TOP HEADER*/ 
+/**********************************************************/
+
+.topHeader{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-color: #1E1F29;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.4pt;
+    color: whitesmoke;
+    height: auto;
+    padding: 1% 15% 0px 15%;
+}
+
+.topHeader__izq, .topHeader__der{ /*hijos heredados del topHeader*/
+    display: flex;
+    width: auto;
+    height: 30px;
+}
+
+.topHeader ul li{
+    padding: 0px 5px; /*separo las listas 5px izq y der por igual*/
+}
+
+.topHeader ul li i{
+    color: rgb(167, 53, 53); /*pinta los iconos del topHeader*/    
+}
+
+ul{
+    list-style: none; /*quita circulos de los li */
+}
+
+/**********************************************************/
+                                    /*HEADER*/ 
+/**********************************************************/
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #15161D;
+    align-items: baseline;
+    padding: 0 15%;
+    height: 150px;
+}
+
+.header__logo{
+    width: 130px;
+    height: 130px;
+    top: 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 130px;
+    text-align: center;
+    background: #bd324a;
+    font-family: fantasy;
+}
+
+.header__buscar input{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 20px 0 0 20px;
+    border: 2px solid #bd324a;
+}
+
+.header__buscarLogo{    
+    right: 5px;
+    position: relative;
+    font-size: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: #D10024;
+    width: 90px;
+    height: 44px;
+    border-radius: 0px 20px 20px 0px;
+    top: 3px;
+    padding-right: 20px;
+}
+
+
+/***********************************************************/
+                               /*Header Lista Deseos y Carrito*/
+/***********************************************************/
+
+.header__compras{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 120px;
+}
+
+.header__compras ul li{
+    text-align: center;
+}
+
+/**********************************************************/
+                                    /*N A V*/ 
+/**********************************************************/
+
+nav{
+    border-top: 3px solid #D10024;
+    border-bottom: 2px solid #dfdfdf;
+}
+.nav__ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 150px;
+}
+
+.nav__ul-li{
+    list-style-type: none;
+    width: auto;
+    
+
+}
+.nav__ul li a {
+    text-decoration: none;
+    color:#333;
+    background-image: linear-gradient(#D10024, #D10024);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;    
+}
+
+.nav__ul li a:hover, .nav__ul li a:focus {
+    background-size: 100% 2px;
+    color: #D10024; 
+}
+
+/********************************************************
+                    footer 
+*********************************************************/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: #1E1F29;
+    padding: 20px 0;      
+}
+
+
+.footer__SobreNosotros{
+    width:15%;
+    color: #dfdfdf;
+}
+.footer__Informacion{
+    width:15%;
+    color: #dfdfdf;
+}
+.footer__Servicio{
+    width:15%;
+    color: #dfdfdf;
+}
+.footer__DerechosResevados{
+    width:15%;
+    color: #dfdfdf;
+}
+
+/********************************************************
+                    Scroll al top 
+*********************************************************/
+
+/*
+html {
+    scroll-behavior: smooth;
+}
+/*Btn Subir*//*
+.Btn__Flotante {  
+    font-size: 20px;  
+}
+
+.Btn__FlotanteAnchor{
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 22px;
+    position: fixed;
+    font-weight: bolder;
+    color: #D10024;
+    z-index: 10;
+}
+
+.Btn__Flotante:hover {
+	cursor: pointer;
+}
+*/
