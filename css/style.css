@@ -113,7 +113,7 @@ ul{
     flex-direction: row;
     flex-wrap: nowrap; 
     justify-content: space-between; 
-    background-image: url("/img/headerBackground.PNG");
+    background-image: url("../img/headerBackground.PNG");
     align-items: center;
     height: 120px;
     padding: 0 10%;
@@ -499,7 +499,7 @@ footer{
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-   background-image: url("/img/headerBackground.PNG");
+   background-image: url("../img/headerBackground.PNG");
    margin-top: 10%;
     padding: 20px 10%;
     font-family: 'Ubuntu', sans-serif;
@@ -510,7 +510,7 @@ footer{
 MEDIAS QUERYS
 ************************************************************/
 
-@media screen and (min-width:310px) and (max-width:480px){
+@media screen and (min-width:320px) and (max-width:480px){
 
     .topHeader__smartphone , .nav__ul{
         display: none;
@@ -701,7 +701,7 @@ MEDIAS QUERYS
     .banner {
         width: 100%;
         height: 230px;
-        background-image: url(../img/banner.jpg);
+        background-image: url("../img/banner.jpg");
         position: relative;
         top: 50px;
     }
@@ -767,7 +767,7 @@ MEDIAS QUERYS
         flex-wrap: nowrap;
         justify-content: space-between;
         align-items: center;
-        background-image: url(/img/headerBackground.PNG);
+        background-image: url("../img/headerBackground.PNG");
         margin-top: 20%;
         padding: 20px 2%;
         font-family: 'Ubuntu', sans-serif;
@@ -847,7 +847,7 @@ MEDIAS QUERYS
     .banner {
         width: 100%;
         height: 230px;
-        background-image: url(../img/banner.jpg);
+        background-image: url("../img/banner.jpg");
         position: relative;
         top: 50px;
     }
